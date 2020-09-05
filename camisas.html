@@ -1,0 +1,454 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>XonSports</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="css/style2.css" rel="stylesheet" type="text/css" />
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    </head>
+    <body>
+      <header>
+        <nav class="navbar navbar-expand-lg">
+          <a class="navbar-brand" style="color:white;" href="index.html">
+            <h3>XonSports</h3>
+          </a>
+          <button class="navbar-toggler navbar-dark" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item active">
+                <a class="nav-link" href="index.html">Inicio<span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="tenis.html">Tenis</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="camisas.html" style="color:white;">Camisas</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="variedades.html">Variedades</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="iniciarsesion.html">Iniciar Sesión</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </header>
+
+      
+      <div class="container" style="padding-top: 20px;">
+        <div class="row">
+          <section class="col-12">
+            <ol class="breadcrumb">
+              <li class="breadcrumb-item">
+                  <a style="color:rgba(0, 0, 0, 0.466);" href="index.html"> Inicio</a>
+              </li>
+              <li class="breadcrumb-item">
+                <a style="color:rgba(0, 0, 0, 0.466);" href="tenis.html">Tenis</a>
+              </li>
+              <li class="breadcrumb-item">
+                <span>Camisas</span>
+              </li>
+              <li class="breadcrumb-item">
+                <a style="color:rgba(0, 0, 0, 0.466);" href="variedades.html">Variedades</a>
+              </li>
+            </ol>
+          </section>
+        </div>
+      </div>
+      <div class="container" style="padding-top:20px ;">
+        <div class="row">
+          <div class="col-md-12">
+            <h1 class="page-header">CAMISAS</h1>
+          <hr>
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-3">            
+            <button id="btnButton" class="btn btn-dark">
+              <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-filter" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" d="M6 10.5a.5.5 0 0 1 .5-.5h3a.5.5 0 0 1 0 1h-3a.5.5 0 0 1-.5-.5zm-2-3a.5.5 0 0 1 .5-.5h7a.5.5 0 0 1 0 1h-7a.5.5 0 0 1-.5-.5zm-2-3a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 0 1h-11a.5.5 0 0 1-.5-.5z"/>
+              </svg>  FILTROS
+            </button>
+            <hr>
+            <div class="row" id="filtros">
+              <div class="col-md">
+                <b>MARCA</b>
+              </div>
+              <div class="col-md">
+                <div class="row">
+                  <div class="col-md d-none d-md-block">
+                    <div class="form-check"  style="font-size:12px;" >
+                      <form>
+                        <input class="form-check-input" type="checkbox">
+                        <label>
+                          NIKE
+                        </label>
+                      </form>
+                    </div>
+                  </div>
+                </div>
+
+
+                <div class="row">
+                  <div class="col-md">
+                    <div class="form-check"  style="font-size:12px;" >
+                      <form>
+                        <input class="form-check-input" type="checkbox">
+                        <label>
+                          ADIDAS
+                        </label>
+                      </form>
+                    </div>
+                  </div>
+                </div>
+
+
+                <div class="row">
+                  <div class="col-md">
+                    <div class="form-check"  style="font-size:12px;" >
+                      <form>
+                        <input class="form-check-input" type="checkbox">
+                        <label>
+                          VANS
+                        </label>
+                      </form>
+                    </div>
+                  </div>
+                </div>
+
+
+              </div>
+            </div>
+            <hr id="espacio-filtro">
+            <div class="row" id="filtro2">
+              <div class="col-md">
+                <b>PARA</b>
+              </div>
+              <div class="col-md">
+                <div class="row">
+                  <div class="col-md">
+                    <div class="form-check"  style="font-size:12px;" >
+                      <form>
+                        <input class="form-check-input" type="checkbox">
+                        <label>
+                          HOMBRES
+                        </label>
+                      </form>
+                    </div>
+                  </div>
+                </div>
+
+
+                <div class="row">
+                  <div class="col-md">
+                    <div class="form-check"  style="font-size:12px;" >
+                      <form>
+                        <input class="form-check-input" type="checkbox">
+                        <label>
+                          MUJERES
+                        </label>
+                      </form>
+                    </div>
+                  </div>
+                </div>
+
+
+                <div class="row">
+                  <div class="col-md">
+                    <div class="form-check"  style="font-size:12px;" >
+                      <form>
+                        <input class="form-check-input" type="checkbox">
+                        <label>
+                          NIÑOS
+                        </label>
+                      </form>
+                    </div>
+                  </div>
+                </div>
+
+
+              </div>
+            </div>
+            <hr id="espacio-filtro2">
+
+            <div class="row" id="filtro3">
+              <div class="col-md">
+                <b>COLOR</b>
+              </div>
+              <div class="col-md">
+                <div class="row">
+                  <div class="col-md">
+                    <div class="form-check"  style="font-size:12px;" >
+                      <form>
+                        <input class="form-check-input" type="checkbox">
+                        <label>
+                          BLANCO
+                        </label>
+                      </form>
+                    </div>
+                  </div>
+                </div>
+
+
+                <div class="row">
+                  <div class="col-md">
+                    <div class="form-check"  style="font-size:12px;" >
+                      <form>
+                        <input class="form-check-input" type="checkbox">
+                        <label>
+                          NEGRO
+                        </label>
+                      </form>
+                    </div>
+                  </div>
+                </div>
+
+
+                <div class="row">
+                  <div class="col-md">
+                    <div class="form-check"  style="font-size:12px;" >
+                      <form>
+                        <input class="form-check-input" type="checkbox">
+                        <label>
+                          AZUL
+                        </label>
+                      </form>
+                    </div>
+                  </div>
+                </div>
+
+
+              </div>
+            </div>
+            <hr id="espacio-filtro3">
+          </div>
+
+          
+          <div class="col-md-9">
+            <h5>PRODUCTOS</h5>
+            <div class="row">
+              <div class="col-lg-3 col-6 product-block mb-4 px-2">
+                <a href="producto.html">
+                  <img src="img/playera-nike-drifit-giannis-freak.png" class="img-fluid img-portfolio img-hover mb-3">
+                </a>
+                <h6>NIKE</h6>
+                <small style="color:#221f1cb2;">Playera Nike Dri-Fit Giannis Freak</small>
+                <div class="price-mob">
+                  $649.00
+                </div>
+              </div>
+              <div class="col-lg-3 col-6 product-block mb-4 px-2">
+                <a href="producto.html">
+                  <img src="img/playera-nike-drifit-giannis-swoosh-freak.png" class="img-fluid img-portfolio img-hover mb-3">
+                </a>
+                <h6>NIKE</h6>
+                <small style="color:#221f1cb2;">Playera Nike Dri-Fit Giannis Smoosh Freak</small>
+                <div class="price-mob">
+                  $659.00
+                </div>
+              </div>
+              <div class="col-lg-3 col-6 product-block mb-4 px-2">
+                <a href="producto.html">
+                  <img src="img/playera-nike-sportswear.png" class="img-fluid img-portfolio img-hover mb-3">
+                </a>  
+                <h6>NIKE</h6>
+                <small style="color:#221f1cb2;">Playera Nike Sportswear</small>
+                <div class="price-mob">
+                  $549.00
+                </div>
+              </div>
+              <div class="col-lg-3 col-6 product-block mb-4 px-2">
+                <a href="producto.html">
+                  <img src="img/playera-adidas-harden-swagger.jpg" class="img-fluid img-portfolio img-hover mb-3">
+                </a>  
+                <h6>ADIDAS</h6>
+                <small style="color:#221f1cb2;">Playera Adidas Harden Swagger</small>
+                <div class="price-mob">
+                  $459.00
+                </div>
+              </div>
+              <div class="col-lg-3 col-6 product-block mb-4 px-2">
+                <a href="producto.html">
+                  <img src="img/playera-adidas-kaval-graphic.jpg" class="img-fluid img-portfolio img-hover mb-3">
+                </a>  
+                <h6>ADIDAS</h6>
+                <small style="color:#221f1cb2;">Playera Adidas Caval Graphic</small>
+                <div class="price-mob">
+                  $459.00
+                </div>
+              </div>
+              <div class="col-lg-3 col-6 product-block mb-4 px-2">
+                <a href="producto.html">
+                  <img src="img/playera-adidas-trifolio-paintbrush.png" class="img-fluid img-portfolio img-hover mb-3">
+                </a>  
+                <h6>ADIDAS</h6>
+                <small style="color:#221f1cb2;">Playera Adidas Trifolio Paintbrush</small>
+                <div class="price-mob">
+                    $499.00
+                </div>
+              </div>
+
+                <div class="col-lg-3 col-6 product-block mb-4 px-2">
+                  <a href="producto.html">
+                    <img src="img/playera-adidas-ZENO.png" class="img-fluid img-portfolio img-hover mb-3">
+                  </a>  
+                  <h6>ADIDAS</h6>
+                  <small style="color:#221f1cb2;">Playera Adidas ZENO</small>
+                  <div class="price-mob">
+                    $699.00
+                  </div>
+                </div>
+
+                <div class="col-lg-3 col-6 product-block mb-4 px-2">
+                  <a href="producto.html">
+                    <img src="img/playera-vans-national-geo-globe.png" class="img-fluid img-portfolio img-hover mb-3">
+                  </a>  
+                  <h6>VANS</h6>
+                  <small style="color:#221f1cb2;">Playera Vans National Geographic Globe</small>
+                  <div class="price-mob">
+                    $299.00
+                  </div>
+                </div>
+
+                <div class="col-lg-3 col-6 product-block mb-4 px-2">
+                  <a href="producto.html">
+                    <img src="img/playera-vans-the-simpsons-family.png" class="img-fluid img-portfolio img-hover mb-3">
+                  </a>  
+                  <h6>VANS</h6>
+                  <small style="color:#221f1cb2;">Playera Vans The Simpsons Family</small>
+                  <div class="price-mob">
+                    $299.00
+                  </div>
+                </div>
+              </div>
+              <nav aria-label="Page navigation example">
+                <ul class="pagination justify-content-center">
+                  <li class="page-item disabled">
+                    <a class="page-link" href="#" tabindex="-1">Previous</a>
+                  </li>
+                  <li class="page-item"><a class="page-link" href="camisas.html" style="color: black; border: 1px solid;">1</a></li>
+                  <li class="page-item"><a class="page-link" href="camisas-pagination-2.html"  style="color: black;">2</a></li>
+                  <li class="page-item">
+                    <a class="page-link" href="camisas-pagination-2.html"  style="color: black;">Next</a>
+                  </li>
+                </ul>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      <footer class="page-footer font-small indigo" style="background-color:black;">
+        <div class="container text-center text-md-left">
+            <div class="row" style="text-align: center; padding-top:25px; color:black;">
+              <div class="col-md-3 mx-auto">  
+              <ul class="list-unstyled" style=" margin-top:20px; text-align:left;">
+                <li>
+                  <a href="#!" style="color:white;">Inicio</a>
+                </li>
+                <li>
+                  <a href="#!" style="color:white;">Ayuda</a>
+                </li>
+                <li>
+                  <a href="#!" style="color:white;">Redes Sociales</a>
+                </li>
+                <li>
+                  <a href="#!" style="color:white;">Presentaciones</a>
+                </li>
+              </ul>
+            </div>
+            <div class="col-md-3 mx-auto">
+              <ul class="list-unstyled" style=" margin-top:20px; text-align:left;"> 
+                <li>
+                  <a href="#!" style="color:white;">Secciones</a>
+                </li>
+                <li>
+                  <a href="#!" style="color:white;">Contacto</a>
+                </li>
+                <li>
+                  <a href="#!" style="color:white;">Ing. Rosales</a>
+                </li>
+                <li>
+                  <a href="#!" style="color:white;">Oficinas</a>
+                </li>
+              </ul>
+            </div>  
+            <div class="col-md-3 mx-auto">
+              <ul class="list-unstyled" style=" margin-top:20px; text-align:left;">
+                <li>
+                  <a href="#!" style="color:white;">Horarios</a>
+                </li>
+                <li>
+                  <a href="#!" style="color:white;">¿Hay un problema?</a>
+                </li>
+                <li>
+                  <a href="#!" style="color:white;">Privacidad</a>
+                </li>
+                <li>
+                  <a href="#!" style="color:white;">FAQ</a>
+                </li>
+              </ul>
+      
+            </div>
+      
+            <div class="col-md-3 mx-auto">
+      
+      
+              <ul class="list-unstyled" style=" margin-top:20px; text-align:left;">
+                <li>
+                  <a href="#!" style="color:white;">Términos y condiciones</a>
+                </li>
+                <li>
+                  <a href="#!" style="color:white;">Aviso de privacidad</a>
+                </li>
+                <li>
+                  <a href="#!" style="color:white;">Postular</a>
+                </li>
+                <li>
+                  <a href="#!" style="color:white;">XonSports</a>
+                </li>
+              </ul>
+            </div>
+      
+          </div>
+      
+        </div>
+        <div class="footer-copyright text-center py-3">© 2020 Copyright:
+          <a href="index.html" style="color:white;"> XonSports</a>
+        </div>
+      </footer>
+  
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>   
+      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+      <script>
+      $(function() {
+        $("#filtros").hide();
+        $("#filtro3").hide();
+        $("#filtro2").hide();
+        $("#espacio-filtro").hide();
+        $("#espacio-filtro2").hide();
+        $("#espacio-filtro3").hide();
+
+
+
+        $("#btnButton").click(function(){
+          $("#filtros").slideToggle();
+          $("#filtro2").slideToggle();
+          $("#filtro3").slideToggle();
+          $("#espacio-filtro").slideToggle();
+          $("#espacio-filtro2").slideToggle();
+          $("#espacio-filtro3").slideToggle();
+
+        });
+
+      });
+    </script>
+
+  </body>
+</html>

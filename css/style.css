@@ -1,0 +1,46 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+
+header{
+    background-color:black;
+    min-height: 72px;
+}
+
+nav a{
+    color:rgb(240, 206, 206);
+    text-decoration: none;
+    display: inline-block;
+    text-align: center;
+    margin:5px;
+    font-size: 15px;
+    padding: 17px;
+}
+
+nav a:hover{
+    color:white;
+}
+
+.ofertas{
+    background-color:black;
+    color:white;
+    text-align:center;
+    padding:16px;
+    height:65px;
+}
+
+
+.content-class {
+    padding: 0px 17px !important;
+    color:white !important;
+}
+
+.popup-class{
+    background-color: rgba(14, 11, 11, 0.74) !important;
+}
+
+.button-class{
+    color:black !important;
+}

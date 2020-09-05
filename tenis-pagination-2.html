@@ -1,0 +1,488 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>XonSports</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="css/style2.css" rel="stylesheet" type="text/css" />
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    </head>
+    <body>
+      <header>
+        <nav class="navbar navbar-expand-lg">
+          <a class="navbar-brand" style="color:white;" href="index.html">
+            <h3>XonSports</h3>
+          </a>
+          <button class="navbar-toggler navbar-dark" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item active">
+                <a class="nav-link" href="index.html">Inicio<span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="tenis.html" style="color:white;">Tenis</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="camisas.html">Camisas</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="variedades.html">Variedades</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="iniciarsesion.html">Iniciar Sesión</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </header>
+
+      
+      <div class="container" style="padding-top: 20px;">
+        <div class="row">
+          <section class="col-12">
+            <ol class="breadcrumb">
+              <li class="breadcrumb-item">
+                  <a style="color:rgba(0, 0, 0, 0.466);" href="index.html"> Inicio</a>
+              </li>
+              <li class="breadcrumb-item">
+                <span>Tenis</span>
+              </li>
+              <li class="breadcrumb-item">
+                <a style="color:rgba(0, 0, 0, 0.466);" href="camisas.html">Camisas</a>
+              </li>
+              <li class="breadcrumb-item">
+                <a style="color:rgba(0, 0, 0, 0.466);" href="variedades.html">Variedades</a>
+              </li>
+            </ol>
+          </section>
+        </div>
+      </div>
+      <div class="container" style="padding-top:20px ;">
+        <div class="row">
+          <div class="col-md-12">
+            <h1 class="page-header">TENIS</h1>
+          <hr>
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-3">            
+            <button id="btnButton" class="btn btn-dark">
+              <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-filter" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" d="M6 10.5a.5.5 0 0 1 .5-.5h3a.5.5 0 0 1 0 1h-3a.5.5 0 0 1-.5-.5zm-2-3a.5.5 0 0 1 .5-.5h7a.5.5 0 0 1 0 1h-7a.5.5 0 0 1-.5-.5zm-2-3a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 0 1h-11a.5.5 0 0 1-.5-.5z"/>
+              </svg>  FILTROS
+            </button>
+            <hr>
+            <div class="row" id="filtros">
+              <div class="col-md">
+                <b>MARCA</b>
+              </div>
+              <div class="col-md">
+                <div class="row">
+                  <div class="col-md d-none d-md-block">
+                    <div class="form-check"  style="font-size:12px;" >
+                      <form>
+                        <input class="form-check-input" type="checkbox">
+                        <label>
+                          NIKE
+                        </label>
+                      </form>
+                    </div>
+                  </div>
+                </div>
+
+
+                <div class="row">
+                  <div class="col-md">
+                    <div class="form-check"  style="font-size:12px;" >
+                      <form>
+                        <input class="form-check-input" type="checkbox">
+                        <label>
+                          ADIDAS
+                        </label>
+                      </form>
+                    </div>
+                  </div>
+                </div>
+
+
+                <div class="row">
+                  <div class="col-md">
+                    <div class="form-check"  style="font-size:12px;" >
+                      <form>
+                        <input class="form-check-input" type="checkbox">
+                        <label>
+                          VANS
+                        </label>
+                      </form>
+                    </div>
+                  </div>
+                </div>
+
+
+              </div>
+            </div>
+            <hr id="espacio-filtro">
+            <div class="row" id="filtro2">
+              <div class="col-md">
+                <b>PARA</b>
+              </div>
+              <div class="col-md">
+                <div class="row">
+                  <div class="col-md">
+                    <div class="form-check"  style="font-size:12px;" >
+                      <form>
+                        <input class="form-check-input" type="checkbox">
+                        <label>
+                          HOMBRES
+                        </label>
+                      </form>
+                    </div>
+                  </div>
+                </div>
+
+
+                <div class="row">
+                  <div class="col-md">
+                    <div class="form-check"  style="font-size:12px;" >
+                      <form>
+                        <input class="form-check-input" type="checkbox">
+                        <label>
+                          MUJERES
+                        </label>
+                      </form>
+                    </div>
+                  </div>
+                </div>
+
+
+                <div class="row">
+                  <div class="col-md">
+                    <div class="form-check"  style="font-size:12px;" >
+                      <form>
+                        <input class="form-check-input" type="checkbox">
+                        <label>
+                          NIÑOS
+                        </label>
+                      </form>
+                    </div>
+                  </div>
+                </div>
+
+
+              </div>
+            </div>
+            <hr id="espacio-filtro2">
+
+            <div class="row" id="filtro3">
+              <div class="col-md">
+                <b>COLOR</b>
+              </div>
+              <div class="col-md">
+                <div class="row">
+                  <div class="col-md">
+                    <div class="form-check"  style="font-size:12px;" >
+                      <form>
+                        <input class="form-check-input" type="checkbox">
+                        <label>
+                          BLANCO
+                        </label>
+                      </form>
+                    </div>
+                  </div>
+                </div>
+
+
+                <div class="row">
+                  <div class="col-md">
+                    <div class="form-check"  style="font-size:12px;" >
+                      <form>
+                        <input class="form-check-input" type="checkbox">
+                        <label>
+                          NEGRO
+                        </label>
+                      </form>
+                    </div>
+                  </div>
+                </div>
+
+
+                <div class="row">
+                  <div class="col-md">
+                    <div class="form-check"  style="font-size:12px;" >
+                      <form>
+                        <input class="form-check-input" type="checkbox">
+                        <label>
+                          AZUL
+                        </label>
+                      </form>
+                    </div>
+                  </div>
+                </div>
+
+
+              </div>
+            </div>
+            <hr id="espacio-filtro3">
+          </div>
+
+          
+          <div class="col-md-9">
+            <h5>PRODUCTOS</h5>
+            <div class="row">
+              <div class="col-lg-3 col-6 product-block mb-4 px-2">
+                <a href="producto.html">
+                  <img src="img/TenisNikeAirMax270.png" class="img-fluid img-portfolio img-hover mb-3">
+                </a>
+                <h6>NIKE</h6>
+                <small style="color:#221f1cb2;">Tenis Nike Air Max 270 React</small>
+                <div class="price-mob">
+                  $2,379.00
+                </div>
+              </div>
+              <div class="col-lg-3 col-6 product-block mb-4 px-2">
+                <a href="producto.html">
+                  <img src="img/TenisNikeAirMax90Kicks.png" class="img-fluid img-portfolio img-hover mb-3">
+                </a>
+                <h6>NIKE</h6>
+                <small style="color:#221f1cb2;">Tenis Nike Air Max 90 Knicks</small>
+                <div class="price-mob">
+                  $3,150.00
+                </div>
+              </div>
+              <div class="col-lg-3 col-6 product-block mb-4 px-2">
+                <a href="producto.html">
+                  <img src="img/TenisNikeJoyrideCC3.png" class="img-fluid img-portfolio img-hover mb-3">
+                </a>  
+                <h6>NIKE</h6>
+                <small style="color:#221f1cb2;">Tenis Nike Air Max 90 Knicks</small>
+                <div class="price-mob">
+                  $3,150.00
+                </div>
+              </div>
+              <div class="col-lg-3 col-6 product-block mb-4 px-2">
+                <a href="producto.html">
+                  <img src="img/TenisNikeReactElement55.jpg" class="img-fluid img-portfolio img-hover mb-3">
+                </a>  
+                <h6>NIKE</h6>
+                <small style="color:#221f1cb2;">Tenis Nike Air Max 90 Knicks</small>
+                <div class="price-mob">
+                  $3,150.00
+                </div>
+              </div>
+              <div class="col-lg-3 col-6 product-block mb-4 px-2">
+                <a href="producto.html">
+                  <img src="img/TenisAdidasStreetballCollegiateBurgundy.png" class="img-fluid img-portfolio img-hover mb-3">
+                </a>  
+                <h6>ADIDAS</h6>
+                <small style="color:#221f1cb2;">Tenis Adidas Streetball Collegiate Burguny</small>
+                <div class="price-mob">
+                  $2,599.00
+                </div>
+              </div>
+              <div class="col-lg-3 col-6 product-block mb-4 px-2">
+                <a href="producto.html">
+                  <img src="img/TenisAdidasStreetballCollegiateGold.png" class="img-fluid img-portfolio img-hover mb-3">
+                </a>  
+                <h6>ADIDAS</h6>
+                <small style="color:#221f1cb2;">Tenis Adidas Streetball Collegiate Gold</small>
+                <div class="price-mob">
+                    $2,599.00
+                </div>
+              </div>
+
+                <div class="col-lg-3 col-6 product-block mb-4 px-2">
+                  <a href="producto.html">
+                    <img src="img/TenisAdidasU_PathRun.png" class="img-fluid img-portfolio img-hover mb-3">
+                  </a>  
+                  <h6>ADIDAS</h6>
+                  <small style="color:#221f1cb2;">Tenis Adidas U_Path Run</small>
+                  <div class="price-mob">
+                    $2,599.00
+                  </div>
+                </div>
+
+                <div class="col-lg-3 col-6 product-block mb-4 px-2">
+                  <a href="producto.html">
+                    <img src="img/TenisAdidasZX2KBoost.png" class="img-fluid img-portfolio img-hover mb-3">
+                  </a>  
+                  <h6>ADIDAS</h6>
+                  <small style="color:#221f1cb2;">Tenis Adidas Z X2 Boost</small>
+                  <div class="price-mob">
+                    $2,599.00
+                  </div>
+                </div>
+
+                <div class="col-lg-3 col-6 product-block mb-4 px-2">
+                  <a href="producto.html">
+                    <img src="img/TenisVansClassic Slip-OnX.png" class="img-fluid img-portfolio img-hover mb-3">
+                  </a>  
+                  <h6>VANS</h6>
+                  <small style="color:#221f1cb2;">Tenis Vans Classic Slip-On X National Geographic Then/Now Glacier</small>
+                  <div class="price-mob">
+                    $1,299.00
+                  </div>
+                </div>
+
+                <div class="col-lg-3 col-6 product-block mb-4 px-2">
+                  <a href="producto.html">
+                    <img src="img/TenisVansComfycushOldSkool.png" class="img-fluid img-portfolio img-hover mb-3">
+                  </a>  
+                  <h6>VANS</h6>
+                  <small style="color:#221f1cb2;">Tenis Vans Comfycush Old Skool</small>
+                  <div class="price-mob">
+                    $1,499.00
+                  </div>
+                </div>
+
+                <div class="col-lg-3 col-6 product-block mb-4 px-2">
+                  <a href="producto.html">
+                    <img src="img/TenisVansOldSkoolXNGAG.png" class="img-fluid img-portfolio img-hover mb-3">
+                  </a>  
+                  <h6>VANS</h6>
+                  <small style="color:#221f1cb2;">Tenis Vans Old Skool X National Geographic Animal Graphics</small>
+                  <div class="price-mob">
+                    $1,399.00
+                  </div>
+                </div>
+
+                <div class="col-lg-3 col-6 product-block mb-4 px-2">
+                  <a href="producto.html">
+                    <img src="img/TenisVansUltraRangeEXOBlack.png" class="img-fluid img-portfolio img-hover mb-3">
+                  </a>  
+                  <h6>VANS</h6>
+                  <small style="color:#221f1cb2;">Tenis Vans Ultrarange Exo Black</small>
+                  <div class="price-mob">
+                    $1,899.00
+                  </div>
+                </div>
+
+              </div>
+              <nav aria-label="Page navigation example">
+                <ul class="pagination justify-content-center">
+                  <li class="page-item">
+                    <a class="page-link" href="tenis.html" style="color: black;">Previous</a>
+                  </li>
+                  <li class="page-item"><a class="page-link" href="tenis.html" style="color: black;">1</a></li>
+                  <li class="page-item"><a class="page-link" href="tenis-pagination-2.html"  style="color: black; border:1px solid;">2</a></li>
+                  <li class="page-item disabled">
+                    <a class="page-link" href="" tabindex ="-1">Next</a>
+                  </li>
+                </ul>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      <footer class="page-footer font-small indigo" style="background-color:black;">
+        <div class="container text-center text-md-left">
+            <div class="row" style="text-align: center; padding-top:25px; color:black;">
+              <div class="col-md-3 mx-auto">  
+              <ul class="list-unstyled" style=" margin-top:20px; text-align:left;">
+                <li>
+                  <a href="#!" style="color:white;">Inicio</a>
+                </li>
+                <li>
+                  <a href="#!" style="color:white;">Ayuda</a>
+                </li>
+                <li>
+                  <a href="#!" style="color:white;">Redes Sociales</a>
+                </li>
+                <li>
+                  <a href="#!" style="color:white;">Presentaciones</a>
+                </li>
+              </ul>
+            </div>
+            <div class="col-md-3 mx-auto">
+              <ul class="list-unstyled" style=" margin-top:20px; text-align:left;"> 
+                <li>
+                  <a href="#!" style="color:white;">Secciones</a>
+                </li>
+                <li>
+                  <a href="#!" style="color:white;">Contacto</a>
+                </li>
+                <li>
+                  <a href="#!" style="color:white;">Ing. Rosales</a>
+                </li>
+                <li>
+                  <a href="#!" style="color:white;">Oficinas</a>
+                </li>
+              </ul>
+            </div>  
+            <div class="col-md-3 mx-auto">
+              <ul class="list-unstyled" style=" margin-top:20px; text-align:left;">
+                <li>
+                  <a href="#!" style="color:white;">Horarios</a>
+                </li>
+                <li>
+                  <a href="#!" style="color:white;">¿Hay un problema?</a>
+                </li>
+                <li>
+                  <a href="#!" style="color:white;">Privacidad</a>
+                </li>
+                <li>
+                  <a href="#!" style="color:white;">FAQ</a>
+                </li>
+              </ul>
+      
+            </div>
+      
+            <div class="col-md-3 mx-auto">
+      
+      
+              <ul class="list-unstyled" style=" margin-top:20px; text-align:left;">
+                <li>
+                  <a href="#!" style="color:white;">Términos y condiciones</a>
+                </li>
+                <li>
+                  <a href="#!" style="color:white;">Aviso de privacidad</a>
+                </li>
+                <li>
+                  <a href="#!" style="color:white;">Postular</a>
+                </li>
+                <li>
+                  <a href="#!" style="color:white;">XonSports</a>
+                </li>
+              </ul>
+            </div>
+      
+          </div>
+      
+        </div>
+        <div class="footer-copyright text-center py-3">© 2020 Copyright:
+          <a href="index.html" style="color:white;"> XonSports</a>
+        </div>
+      </footer>
+  
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>   
+      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+      <script>
+      $(function() {
+        $("#filtros").hide();
+        $("#filtro3").hide();
+        $("#filtro2").hide();
+        $("#espacio-filtro").hide();
+        $("#espacio-filtro2").hide();
+        $("#espacio-filtro3").hide();
+
+
+
+        $("#btnButton").click(function(){
+          $("#filtros").slideToggle();
+          $("#filtro2").slideToggle();
+          $("#filtro3").slideToggle();
+          $("#espacio-filtro").slideToggle();
+          $("#espacio-filtro2").slideToggle();
+          $("#espacio-filtro3").slideToggle();
+
+        });
+
+      });
+    </script>
+
+  </body>
+</html>

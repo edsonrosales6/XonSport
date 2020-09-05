@@ -1,0 +1,60 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+.logo{
+    font-size: 28px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color:white;
+    float:left;
+    padding: 15px;
+}
+
+header{
+    background-color:black;
+    min-height: 72px;
+}
+
+nav a{
+    color:rgb(240, 206, 206);
+    text-decoration: none;
+    display: inline-block;
+    text-align: center;
+    margin:5px;
+    font-size: 15px;
+    padding: 17px;
+}
+
+nav a:hover{
+    color:white;
+}
+
+.col-md-4{
+    margin:auto;
+}
+
+.bd-placeholder-img {
+    font-size: 1.125rem;
+    text-anchor: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+
+@media (min-width: 768px) {
+    .bd-placeholder-img-lg {
+    font-size: 3.5rem;
+    }
+}
+
+#boton{
+    cursor: pointer;
+    width:30px;
+    float:right;
+}
+
+.tenis-inicio{
+    color:rgba(0, 0, 0, 0.589);
+}
